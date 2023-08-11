@@ -9,13 +9,21 @@ date_time = datetime.datetime.now()
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
-def main(): 
-    # Custom HTML styling
+def main():
+    # Custom HTML styling with background image
     html_temp = """
-    <div style="background-color: #007ACC; padding: 1rem; border-radius: 10px;">
+    <style>
+    body {
+        background-image: url('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    </style>
+    <div style="background-color: rgba(0, 0, 0, 0.7); padding: 2rem; border-radius: 10px;">
         <h2 style="color: white; text-align: center;">Predict Car Prices with AI Magic</h2>
     </div>
     """
+    
     st.markdown(html_temp,unsafe_allow_html=True)
     st.write('')
     st.write("### Are you planning to sell your car?")
