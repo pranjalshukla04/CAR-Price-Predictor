@@ -1,4 +1,4 @@
-# Car Price Prediction Web App 🚗
+# CAR Price Prediction Web App 🚗
 
 <p align="center">
   <a href="https://pranjal-shukla-car-price-predictor.streamlit.app/" target="_blank" rel="noopener noreferrer">
