@@ -1,6 +1,7 @@
 # Car Price Prediction Web App 🚗
 
-[![Vehicle Transformation](https://dribbble.com/shots/2276567-Car-Bike-transform/attachments/9220887?mode=media)](https://dribbble.com/shots/2276567-Car-Bike-transform/attachments/9220887?mode=media)
+[![App Preview](app_preview.png)](https://pranjal-shukla-car-price-predictor.streamlit.app/)
+
 
 ## Table of Contents
 - [About](#about)
