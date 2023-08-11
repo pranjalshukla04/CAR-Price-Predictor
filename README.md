@@ -24,7 +24,6 @@ Welcome to the Car Price Prediction Web App! This project showcases the deployme
 <p align="center">
   <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/SS1.png" alt="Demo" width="1000" />
 </p>
-
 ## Feature Details
 
 1. **Ex-Showroom Price**: The current price of the car in lakhs (Indian currency).
