@@ -10,17 +10,21 @@ model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
 def main():
-    # Custom HTML styling with background image
+    # Set page background image using st.image
+    st.image('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg', use_column_width=True)
+
+    # Custom HTML styling for header
     html_temp = """
     <style>
-    body {
-        background-image: url('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+    .header {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
     }
     </style>
-    <div style="background-color: rgba(0, 0, 0, 0.7); padding: 2rem; border-radius: 10px;">
-        <h2 style="color: white; text-align: center;">Predict Car Prices with AI Magic</h2>
+    <div class="header">
+        <h2 style="color: white;">Predict Car Prices with AI Magic</h2>
     </div>
     """
     
