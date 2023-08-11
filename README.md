@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://pranjal-shukla-car-price-predictor.streamlit.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/blob/main/Images/car.gif" alt="App Preview" width="150" height="150">
+    <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/Images/car.gif" alt="App Preview">
   </a>
 </p>
 
