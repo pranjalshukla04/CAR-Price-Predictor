@@ -83,3 +83,6 @@ Contributions are warmly welcomed! If you discover bugs or have suggestions for 
 **Disclaimer**: Please note that the car price predictions presented by the app are generated from a sample XGBoost model and may not reflect current market values. Use the estimates at your discretion and perform thorough research for accurate pricing.
 
 **Project Status**: This project is actively maintained and open for contributions. Feel free to join us in shaping its future!
+
+## Explore our CAR Price Predictor app in action by clicking the following link: 
+## 🚀 https://pranjal-shukla-car-price-predictor.streamlit.app/
