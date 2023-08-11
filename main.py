@@ -17,8 +17,9 @@ def main():
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
-   
-    st.markdown("##### Are you planning to sell your car ?\n##### So let's try evaluating the price..")
+    st.write('')
+    st.write("##### Are you planning to sell your car?")
+    st.write("##### Let's try evaluating the price...")
     
     st.write('')
     st.write('')
