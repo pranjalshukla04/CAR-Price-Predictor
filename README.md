@@ -76,7 +76,7 @@ The model was trained using the XGBoost algorithm on the preprocessed and engine
 - 🌀 **Git**: Version control and collaborative development.
 
 ## Contributing
-Contributions are warmly welcomed! If you discover bugs or have suggestions for improvements, please create an issue or submit a pull request. For further guidance, please refer to our [Contributing Guidelines](CONTRIBUTING.md).
+Contributions are warmly welcomed! If you discover bugs or have suggestions for improvements, please create an issue or submit a pull request.
 
 ---
 
