@@ -10,31 +10,20 @@ model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
 def main():
-    # Custom CSS styling for background image
-    st.markdown(
-        """
-        <style>
-        body {
-            background-image: url('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        .container {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 2rem;
-            border-radius: 10px;
-            text-align: center;
-            margin-top: 10rem; /* Adjust this value to center the content vertically */
-        }
-        </style>
-        """
-        , unsafe_allow_html=True
-    )
+    # Set the background image
+    bg_image = 'https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg'
+    st.image(bg_image, use_column_width=True)
 
-    # Container for header and content
-    st.markdown('<div class="container">', unsafe_allow_html=True)
-    st.write('<h2 style="color: white;">Predict Car Prices with AI Magic</h2>', unsafe_allow_html=True)
+    # Content container
+    content = """
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+        <h2 style="color: white;">Predict Car Prices with AI Magic</h2>
+        <p style="color: white;">Are you planning to sell your car?</p>
+        <p style="color: white;">Let's try evaluating the price...</p>
+        <!-- Add your input elements here -->
+    </div>
+    """
+    st.markdown(content, unsafe_allow_html=True)
 
     st.write('')
     st.write("### Are you planning to sell your car?")
