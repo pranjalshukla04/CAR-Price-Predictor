@@ -9,11 +9,11 @@ date_time = datetime.datetime.now()
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
-def main(): 
+def main(): '''
     html_temp=
      <div style = "background-color:lightblue;padding:16px">
      <h2 style="color:black;text-align:center;"> Predict Car Price with AI Magic</h2>
-     </div>
+     </div> '''
    
     st.markdown(html_temp,unsafe_allow_html=True)
    
