@@ -1,6 +1,6 @@
 # Car Price Prediction Web App 🚗
 
-[![App Preview](app_preview.png)](https://pranjal-shukla-car-price-predictor.streamlit.app/)
+[![App Preview](https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/icon.png)](https://pranjal-shukla-car-price-predictor.streamlit.app/)
 
 
 ## Table of Contents
