@@ -12,12 +12,12 @@ model.load_model('xgb_model.json')
 def main(): 
     html_temp="""
      <div style = "background-color:lightblue;padding:16px">
-     <h2 style="color:black;text-align:center;"> Car Price Prediction Using ML</h2>
+     <h2 style="color:black;text-align:center;"> Predicting Car Prices with AI Magic</h2>
      </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
    
-    st.markdown("##### Are you planning to sell your car !?\n##### So let's try evaluating the price..")
+    st.markdown("##### Are you planning to sell your car ?\n##### So let's try evaluating the price..")
     
     st.write('')
     st.write('')
