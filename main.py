@@ -9,6 +9,8 @@ date_time = datetime.datetime.now()
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
+def main():
+    # Custom CSS styling for background image
     st.markdown(
         """
         <style>
@@ -34,8 +36,6 @@ model.load_model('xgb_model.json')
     st.markdown('<div class="container">', unsafe_allow_html=True)
     st.write('<h2 style="color: white;">Predict Car Prices with AI Magic</h2>', unsafe_allow_html=True)
 
-    
-    st.markdown(html_temp,unsafe_allow_html=True)
     st.write('')
     st.write("### Are you planning to sell your car?")
     st.write("### Let's try evaluating the price...")
