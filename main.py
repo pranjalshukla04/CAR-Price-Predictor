@@ -10,14 +10,16 @@ model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
 def main(): 
-    html_temp="""
-     <div style = "background-color:lightblue;padding:16px">
-     <h2 style="color:black;text-align:center;"> Predict Car Prices with AI Magic</h2>
-     </div>
+    html_temp = """
+    <div style="background-color: #007ACC; padding: 1rem; border-radius: 10px;">
+        <h2 style="color: white; text-align: center;">Predict Car Prices with AI Magic</h2>
+    </div>
     """
-    st.markdown(html_temp,unsafe_allow_html=True)
+    st.markdown(html_temp, unsafe_allow_html=True)
    
-    st.markdown("##### Are you planning to sell your car ?\n##### So let's try evaluating the price..")
+    st.write("### Are you planning to sell your car?")
+    st.write("### Let's try evaluating the price...")
+
     
     st.write('')
     st.write('')
