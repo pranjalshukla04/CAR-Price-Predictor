@@ -1,6 +1,11 @@
 # Car Price Prediction Web App 🚗
 
-[![App Preview](https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/icon.png)](https://pranjal-shukla-car-price-predictor.streamlit.app/)
+<p align="center">
+  <a href="https://pranjal-shukla-car-price-predictor.streamlit.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/blob/main/Images/car.gif" alt="App Preview" width="150" height="150">
+  </a>
+</p>
+
 
 
 ## Table of Contents
