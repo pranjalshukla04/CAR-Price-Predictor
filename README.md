@@ -20,7 +20,9 @@
 Welcome to the Car Price Prediction Web App! This project showcases the deployment of a machine learning model for predicting car prices using the XGBoost algorithm. The app enables users to input various car details and receive accurate price predictions, making sophisticated predictive analytics accessible and engaging.
 
 ## Demo
-![App Demo](app_demo.gif)
+<p align="center">
+  <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/SS1.png" alt="Demo" width="1000" />
+</p>
 
 ## Feature Details
 
