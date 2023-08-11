@@ -1,6 +1,6 @@
 # Car Price Prediction Web App 🚗
 
-![App Preview](app_preview.png)
+[![Vehicle Transformation](https://dribbble.com/shots/2276567-Car-Bike-transform/attachments/9220887?mode=media)](https://dribbble.com/shots/2276567-Car-Bike-transform/attachments/9220887?mode=media)
 
 ## Table of Contents
 - [About](#about)
