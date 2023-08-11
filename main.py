@@ -9,24 +9,31 @@ date_time = datetime.datetime.now()
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
-def main():
-    # Set page background image using st.image
-    st.image('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg', use_column_width=True)
+    st.markdown(
+        """
+        <style>
+        body {
+            background-image: url('https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 10rem; /* Adjust this value to center the content vertically */
+        }
+        </style>
+        """
+        , unsafe_allow_html=True
+    )
 
-    # Custom HTML styling for header
-    html_temp = """
-    <style>
-    .header {
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 2rem;
-        border-radius: 10px;
-        text-align: center;
-    }
-    </style>
-    <div class="header">
-        <h2 style="color: white;">Predict Car Prices with AI Magic</h2>
-    </div>
-    """
+    # Container for header and content
+    st.markdown('<div class="container">', unsafe_allow_html=True)
+    st.write('<h2 style="color: white;">Predict Car Prices with AI Magic</h2>', unsafe_allow_html=True)
+
     
     st.markdown(html_temp,unsafe_allow_html=True)
     st.write('')
