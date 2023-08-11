@@ -9,42 +9,15 @@ date_time = datetime.datetime.now()
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
 
-
-def main():
-    # Custom CSS for background image and content alignment
-    bg_image = 'https://raw.githubusercontent.com/pranjalshukla04/CAR-Price-Predictor/main/MB.jpg'
-    st.write(
-        f"""
-        <style>
-        .bg-image {{
-            background-image: url('{bg_image}');
-            background-size: cover;
-            background-position: center center;
-            background-repeat: no-repeat;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 2rem;
-            text-align: center;
-        }}
-        .header {{
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 1rem;
-            border-radius: 10px;
-            color: white;
-        }}
-        </style>
-        """
-    )
-
-    # Background image and centered content
-    st.write('<div class="bg-image">', unsafe_allow_html=True)
-    st.write('<div class="header">', unsafe_allow_html=True)
-    st.write('<h2>Predict Car Prices with AI Magic</h2>')
-    st.write('<p>Are you planning to sell your car?</p>')
-    st.write('<p>Let\'s try evaluating the price...</p>')
-    st.write('</div>')
+def main(): 
+    html_temp="""
+     <div style = "background-color:lightblue;padding:16px">
+     <h2 style="color:black;text-align:center;"> Predict Car Prices with AI Magic</h2>
+     </div>
+    """
+    st.markdown(html_temp,unsafe_allow_html=True)
+   
+    st.markdown("##### Are you planning to sell your car ?\n##### So let's try evaluating the price..")
     
     st.write('')
     st.write('')
