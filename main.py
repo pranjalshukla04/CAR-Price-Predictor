@@ -36,7 +36,7 @@ def main():
     elif s1=="CNG":
         p3=2
         
-    s2 = st.selectbox('Are you a dealer or an individual ?', ('Dealer','Individual'))
+    s2 = st.selectbox('Are you a dealer or an individual ?', ('Dealer','Indivisual'))
     
     if s2=="Dealer":
         p4=0
