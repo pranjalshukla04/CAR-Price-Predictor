@@ -36,11 +36,11 @@ def main():
     elif s1=="CNG":
         p3=2
         
-    s2 = st.selectbox('Are you a dealer or an individual ?', ('Dealer','Indivisual'))
+    s2 = st.selectbox('Are you a dealer or an individual ?', ('Dealer','Individual'))
     
     if s2=="Dealer":
         p4=0
-    elif s2=="Indivisual":
+    elif s2=="Individual":
         p4=1
         
     s3 = st.selectbox('What is the Transmission Type ?', ('Manual','Automatic'))
