@@ -27,7 +27,7 @@ Welcome to the Car Price Prediction Web App! This project showcases the deployme
 
 ## Demo
 <p align="center">
-  <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/raw/main/SS1.png" alt="Demo" width="1000" />
+  <img src="https://github.com/pranjalshukla04/CAR-Price-Predictor/blob/main/Images/SS1.png" alt="Demo" width="1000" />
 </p>
 
 ## Feature Details
